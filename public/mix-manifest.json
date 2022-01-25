@@ -1,0 +1,20 @@
+{
+    "/assets/css/datatables.css": "/assets/css/datatables.css",
+    "/assets/css/app.css": "/assets/css/app.css",
+    "/assets/js/diversos.js": "/assets/js/diversos.js",
+    "/assets/js/jquery.js": "/assets/js/jquery.js",
+    "/assets/js/js.js": "/assets/js/js.js",
+    "/assets/js/funcao.js": "/assets/js/funcao.js",
+    "/assets/js/grafico.js": "/assets/js/grafico.js",
+    "/assets/js/tinymce/jquery.tinymce.min.js": "/assets/js/tinymce/jquery.tinymce.min.js",
+    "/assets/js/tinymce/license.txt": "/assets/js/tinymce/license.txt",
+    "/assets/js/tinymce/tinymce.json": "/assets/js/tinymce/tinymce.json",
+    "/assets/js/tinymce/tinymce.min.js": "/assets/js/tinymce/tinymce.min.js",
+    "/assets/js/chart.js/Chart.bundle.js": "/assets/js/chart.js/Chart.bundle.js",
+    "/assets/js/chart.js/Chart.bundle.min.js": "/assets/js/chart.js/Chart.bundle.min.js",
+    "/assets/js/chart.js/Chart.js": "/assets/js/chart.js/Chart.js",
+    "/assets/js/chart.js/Chart.min.js": "/assets/js/chart.js/Chart.min.js",
+    "/assets/img/foto01.png": "/assets/img/foto01.png",
+    "/assets/img/logo-laravel.png": "/assets/img/logo-laravel.png",
+    "/assets/img/mark.png": "/assets/img/mark.png"
+}
