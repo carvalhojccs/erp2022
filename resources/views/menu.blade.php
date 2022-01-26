@@ -2,7 +2,7 @@
 
     <nav class="menuprincipal" id="principal">				
         <ul class="menu-ul icones">
-            <li><a href="index.php?link=1"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="{{ config('app.url') }}"><i class="fas fa-home"></i> Home</a></li>
             <li><a href="#menu_cadastro"><i class="icon fas fa-file"></i> Cadastro <span>+</span></a></li>
             <li><a href="#menu_compras"><i class="icon fas fa-cart-plus"></i> Compras <span>+</span></a></li>					
             <li><a href="#menu_estoque"><i class="icon fas fa-cubes"></i> Estoque <span>+</span></a></li>					
@@ -24,8 +24,8 @@
                 </ul>
                 <h3>Unidade</h3>
                 <ul>
-                    <li><a href="index.php?link=4">Lista todos</a></li>
-                    <li><a href="index.php?link=5"> Cadastrar novo</a></li>							
+                    <li><a href="{{ route('units.index') }}">Lista todos</a></li>
+                    <li><a href="{{ route('units.create') }}"> Cadastrar novo</a></li>							
                 </ul>
                 <h3>Produto</h3>
                 <ul>

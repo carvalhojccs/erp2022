@@ -17,11 +17,7 @@
             </div>
             <div class="col-12 mt-3 mb-5">
                 <input type="hidden" name="id_categoria" value="">
-                @if(isset($data))
-                    <input type="submit" name="" value="Editar categoria" class="btn btn-laranja d-block m-auto">
-                @else
-                    <input type="submit" name="" value="Inserir categoria" class="btn btn-laranja d-block m-auto">
-                @endif
+                    <input type="submit" name="" value="Salvar" class="btn btn-laranja d-block m-auto">
             </div>
         </div>
     </form>
