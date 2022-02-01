@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->string('is_product', 1)->nullable();
             $table->string('is_material', 1)->nullable();
             $table->decimal('price', 10, 2)->default(0.00);
+            $table->decimal('high_price', 10, 2)->default(0.00);
             $table->string('image',100)->nullable();
             $table->string('active', 1)->default('y');
             $table->foreignId('category_id')->constrained();

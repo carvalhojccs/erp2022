@@ -16,6 +16,11 @@
             <label class="text-label">Nome</label>	
             <input type="text" name="name" value="{{ isset($data->name) ? $data->name : null }}" class="form-campo" placeholder="Digite o nome da unidade">
         </div>
+        <div class="col-12 mb-3">
+            <label class="text-label">ABREV</label>	
+            <input type="text" name="initials" value="{{ isset($data->initials) ? $data->initials : null }}" class="form-campo" placeholder="Digite o nome">
+             
+        </div>  
         <div class="col-12 mt-3 mb-5">
             <input type="hidden" name="id_categoria" value="">
             <input type="submit" name="" value="Salvar" class="btn btn-laranja d-block m-auto">

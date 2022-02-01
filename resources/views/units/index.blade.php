@@ -45,6 +45,7 @@
                             <tr>
                                 <th align="center">Id</th>
                                 <th align="left" width="50%">Nome</th>
+                                <th align="center">ABREV</th>
                                 <th align="center">Editar</th>
                                 <th align="center">Excluir</th>
                             </tr>
@@ -54,6 +55,7 @@
                             <tr>
                                 <td align="center">{{ $item->id }}</td>
                                 <td align="left">{{ $item->name }}</td>
+                                <td align="center">{{ $item->initials }}</td>
                                 <td align="center">
                                     <a href="{{ route('units.edit', $item->id) }}" class="d-inline-block btn btn-outline-roxo btn-pequeno"><i class="fas fa-edit"></i> Editar</a>
                                 </td>                               											

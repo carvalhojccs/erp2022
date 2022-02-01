@@ -29,8 +29,8 @@
                 </ul>
                 <h3>Produto</h3>
                 <ul>
-                    <li><a href="index.php?link=6">Lista todos</a></li>
-                    <li><a href="index.php?link=7"> Cadastrar novo</a></li>							
+                    <li><a href="{{ route('products.index') }}">Lista todos</a></li>
+                    <li><a href="{{ route('products.create') }}"> Cadastrar novo</a></li>							
                 </ul>
                 <h3>Estado</h3>
                 <ul>

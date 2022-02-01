@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UnitController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::resource('/',HomeController::class);
 Route::resource('categories',CategoryController::class);
 Route::resource('units',UnitController::class);
+Route::resource('products',ProductController::class);
